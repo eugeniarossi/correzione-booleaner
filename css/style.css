@@ -6,54 +6,53 @@ body {
 
 /*HEADER*/
 header {
-    height: 130px;
     background-color: #4ea0ff;
     background-image: url("../img/pattern.png");
+    background-size: 25%;
+    
 }
 
-#img-logo {
-    height: 80px;
-    margin: 50px 0 0 10px; 
+.img-logo {
+    height: 50px;
+    margin-top: 40px; 
 }
 /*FINE HEADER*/
 
+/*MAIN*/
+main {
+    max-width: 70vw;
+    margin: 0 auto;
+}
+
 /*ARTICOLO*/
 article, footer {
-    margin: 10px 300px 30px 10px;
+    margin: 10px 0px 30px 10px;
 }
 
 /*TITOLO*/
 h1 {
     font-size: 45px;
     font-weight: bolder;
-    margin-top: 20px;
+    padding-top: 20px;
     margin-bottom: 0px;
 }
 
 /*SOTTOTITOLO*/
-.subtitle {
-    color: #7a7a7a;
+.info {
+    color: grey;
 }
 
-h3 {
-    margin-top: 0;
-}
-
-#highlighted {
-    color: #3db4e8;
-}
-
-#subtitle-date {
-    font-weight: normal;
+.date {
+    font-size: 12px;
 }
 /*FINE SOTTOTITOLO*/
 
 /*IMMAGINI*/
-#img-main {
-    margin: 20px 0;
+.img-main {
+    margin-top: 20px;
 }
 
-#img-main-caption {
+#caption {
     font-size: small;
 }
 
