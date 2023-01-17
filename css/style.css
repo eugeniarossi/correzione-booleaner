@@ -15,6 +15,7 @@ header {
 .img-logo {
     height: 50px;
     margin-top: 40px; 
+    margin-left: 10px;
 }
 /*FINE HEADER*/
 
@@ -56,11 +57,17 @@ h1 {
     font-size: small;
 }
 
+/*LISTA*/
+ul {
+    padding: 0;
+    list-style-position: inside;
+}
+
 /*TABELLA*/
 table {
     margin: 20px 0;
     text-align: left;
-    border-spacing: 0;
+    border-collapse: collapse;
 }
 
 thead {
@@ -72,7 +79,7 @@ thead {
     width: 50%;
 }
 
-.azure-table-raw {
+.azure-raw {
     background-color: #b1e5f2;
 }
 /*FINE TABELLA*/
